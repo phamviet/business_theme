@@ -1,6 +1,6 @@
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/js/lib/jquery/bootstrap_theme/jquery-ui.selected.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/js/lib/jquery/bootstrap_theme/jquery-ui.selected.css
  */
 /*!
  * jQuery UI Bootstrap (0.5)
@@ -213,7 +213,7 @@
 .ui-widget .ui-widget {font-size: 1em;background: #ddd;}
 /*.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; }*/
 /*.ui-widget-content { border: 1px solid #aaaaaa; background: #ffffff url(/assets/frappe/js/lib/jquery/bootstrap_theme/images/ui-bg_glass_75_ffffff_1x400.png) 50% 50% repeat-x; color: #404040; }*/
-.ui-widget-content {border: 1px solid #aaaaaa;background-color: #ffffff;color: #404040;}
+.ui-widget-content {border: 1px solid #a3e8db;background-color: #ffffff;color: #404040;}
 .ui-widget-content a { color: #404040; }
 .ui-widget-header {
   font-weight:bold;
@@ -228,7 +228,7 @@
 ----------------------------------*/
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
 
-  background-color: #e6e6e6;
+  background-color: #e8f5e9;
   background-repeat: no-repeat;
 
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -236,8 +236,8 @@
   color: #333;
   font-size: 13px;
   line-height: normal;
-  border: 1px solid #ccc;
-  border-bottom-color: #bbb;
+  border: 1px solid #a3e8db;
+  border-bottom-color: #a3e8db;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
@@ -899,7 +899,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/bootstrap.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/bootstrap.css
  */
 /*!
  * Bootstrap v3.3.1 (http://getbootstrap.com)
@@ -910,7 +910,7 @@ button.ui-button::-moz-focus-inner { border: 0; padding: 0; } /* reset extra pad
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 86%;
       -ms-text-size-adjust: 100%;
 }
 body {
@@ -1974,7 +1974,7 @@ th {
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: #383838;
+  background: #e8f5e9;
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
@@ -3447,7 +3447,7 @@ output {
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   border-radius: 0px;
-  border: 1px solid #cecece;
+  border: 1px solid #a3e8db;
   box-shadow: none;
 }
 .form-control:focus {
@@ -3742,7 +3742,7 @@ select[multiple].form-group-lg .form-control {
 .has-error.checkbox label,
 .has-error.radio-inline label,
 .has-error.checkbox-inline label {
-  color: #ff5858;
+  color: #36414c;
 }
 .has-error .form-control {
   border: 1px solid red;
@@ -3911,8 +3911,8 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: inherit;
-  border-color: #cdcfd0;
-  background: #efefef;
+  border-color: #008975;
+  background: rgba(0, 170, 141, 0.39);
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3921,10 +3921,10 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: inherit;
-  background-color: #ccc;
-  border-color: #999;
-  COLOR: #171717;
+  background-color: #00BF9A;
+  border-color: #00BF9A;
   border-radius: 0px;
+  COLOR: #fff;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3958,8 +3958,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #ffa00a;
-  border-color: #999;
+  background-color: #008975;
+  border-color: #008975;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3968,8 +3968,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: rgba(255, 120, 10, 0.93);
-  border-color: #999;
+  background-color: #00BF9A;
+  border-color: #00BF9A;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -4058,8 +4058,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #fff;
-  background-color: #707f90;
-  border-color: #616e7c;
+  background-color: #008975;
+  border-color: #008975;
 }
 .btn-info:active,
 .btn-info.active,
@@ -4343,9 +4343,9 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #2b2b2b;
+  color: #ffffff;
   text-decoration: none;
-  background-color: rgba(255, 160, 10, 0.14);
+  background-color: rgb(0, 191, 154);
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -4766,9 +4766,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: rgba(255, 160, 10, 0.14);
+  background-color: rgba(0, 191, 154, 0.36);
   border-radius: 0px;
-  color: #585757;
+  color: #ffa00a;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4877,7 +4877,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: inherit;
-  background-color: #ffa00a;
+  background-color: #00bf9a;
   color: white;
   border-radius: 0px;
 }
@@ -5277,7 +5277,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background: #36414c;
+  background: #00AA8D;
   border-bottom: 1px solid #d1d8dd;
 }
 
@@ -5331,7 +5331,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffa00a;
-  background: #222b33;
+  background: #00aa8d;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -6422,7 +6422,7 @@ a.list-group-item-danger.active:focus {
 .panel-default > .panel-heading {
   color: #333;
   background-color: #f7fafc;
-  border-color: #ced5db;
+  border-color: rgba(0, 191, 154, 0.36);
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ced5db;
@@ -6666,7 +6666,7 @@ button.close {
 .modal-header {
   min-height: 16.42857143px;
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #a3e8db;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -7490,7 +7490,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: blink;
-  color: #7574ff;
+  color: #ffa00a;
 }
 .navbar a:hover,
 .navbar a:focus,
@@ -7528,7 +7528,7 @@ h4.modal-title {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/font-awesome.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/font-awesome.css
  */
 /*!
  *  Font Awesome 3.2.1
@@ -9020,7 +9020,7 @@ a .icon-flip-vertical:before {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/octicons/octicons.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/octicons/octicons.css
  */
 @font-face {
   font-family: 'octicons';
@@ -9056,157 +9056,157 @@ a .icon-flip-vertical:before {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/cal-heatmap.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/cal-heatmap.css
  */
 /* Cal-HeatMap CSS */
 
 .cal-heatmap-container {
-	display: block;
+  display: block;
 }
 
 .cal-heatmap-container .graph-label
 {
-	fill: #999;
-	font-size: 10px
+  fill: #999;
+  font-size: 10px
 }
 
 .cal-heatmap-container .graph, .cal-heatmap-container .graph-legend rect {
-	shape-rendering: crispedges
+  shape-rendering: crispedges
 }
 
 .cal-heatmap-container .graph-rect
 {
-	fill: #ededed;
+  fill: #ededed;
 }
 
 .cal-heatmap-container .graph-subdomain-group rect:hover
 {
-	stroke: #000;
-	stroke-width: 1px
+  stroke: #000;
+  stroke-width: 1px
 }
 
 .cal-heatmap-container .subdomain-text {
-	font-size: 8px;
-	fill: #999;
-	pointer-events: none
+  font-size: 8px;
+  fill: #999;
+  pointer-events: none
 }
 
 .cal-heatmap-container .hover_cursor:hover {
-	cursor: pointer
+  cursor: pointer
 }
 
 .cal-heatmap-container .qi {
-	background-color: #999;
-	fill: #999
+  background-color: #999;
+  fill: #999
 }
 
 /*
 Remove comment to apply this style to date with value equal to 0
 .q0
 {
-	background-color: #fff;
-	fill: #fff;
-	stroke: #ededed
+  background-color: #fff;
+  fill: #fff;
+  stroke: #ededed
 }
 */
 
 .cal-heatmap-container .q1
 {
-	background-color: #dae289;
-	fill: #dae289
+  background-color: #dae289;
+  fill: #dae289
 }
 
 .cal-heatmap-container .q2
 {
-	background-color: #cedb9c;
-	fill: #9cc069
+  background-color: #cedb9c;
+  fill: #9cc069
 }
 
 .cal-heatmap-container .q3
 {
-	background-color: #b5cf6b;
-	fill: #669d45
+  background-color: #b5cf6b;
+  fill: #669d45
 }
 
 .cal-heatmap-container .q4
 {
-	background-color: #637939;
-	fill: #637939
+  background-color: #637939;
+  fill: #637939
 }
 
 .cal-heatmap-container .q5
 {
-	background-color: #3b6427;
-	fill: #3b6427
+  background-color: #3b6427;
+  fill: #3b6427
 }
 
 .cal-heatmap-container rect.highlight
 {
-	stroke:#444;
-	stroke-width:1
+  stroke:#444;
+  stroke-width:1
 }
 
 .cal-heatmap-container text.highlight
 {
-	fill: #444
+  fill: #444
 }
 
 .cal-heatmap-container rect.now
 {
-	stroke: red
+  stroke: red
 }
 
 .cal-heatmap-container text.now
 {
-	fill: red;
-	font-weight: 800
+  fill: red;
+  font-weight: 800
 }
 
 .cal-heatmap-container .domain-background {
-	fill: none;
-	shape-rendering: crispedges
+  fill: none;
+  shape-rendering: crispedges
 }
 
 .ch-tooltip {
-	padding: 10px;
-	background: #222;
-	color: #bbb;
-	font-size: 12px;
-	line-height: 1.4;
-	width: 140px;
-	position: absolute;
-	z-index: 99999;
-	text-align: center;
-	border-radius: 2px;
-	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-	display: none;
-	box-sizing: border-box;
+  padding: 10px;
+  background: #222;
+  color: #bbb;
+  font-size: 12px;
+  line-height: 1.4;
+  width: 140px;
+  position: absolute;
+  z-index: 99999;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: none;
+  box-sizing: border-box;
 }
 
 .ch-tooltip::after{
-	position: absolute;
-	width: 0;
-	height: 0;
-	border-color: transparent;
-	border-style: solid;
-	content: "";
-	padding: 0;
-	display: block;
-	bottom: -6px;
-	left: 50%;
-	margin-left: -6px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  content: "";
+  padding: 0;
+  display: block;
+  bottom: -6px;
+  left: 50%;
+  margin-left: -6px;
     border-width: 6px 6px 0;
     border-top-color: #222;
 }
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/c3.min.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/c3.min.css
  */
 .c3 svg{font:10px sans-serif;-webkit-tap-highlight-color:transparent; */}.c3 line,.c3 path{fill:none;stroke:#000}.c3 text{-webkit-user-select:none;-moz-user-select:none;user-select:none}.c3-bars path,.c3-event-rect,.c3-legend-item-tile,.c3-xgrid-focus,.c3-ygrid{shape-rendering:crispEdges}.c3-chart-arc path{stroke:#fff}.c3-chart-arc text{fill:#fff;font-size:13px}.c3-grid line{stroke:#aaa}.c3-grid text{fill:#aaa}.c3-xgrid,.c3-ygrid{stroke-dasharray:3 3}.c3-text.c3-empty{fill:gray;font-size:2em}.c3-line{stroke-width:1px}.c3-circle._expanded_{stroke-width:1px;stroke:#fff}.c3-selected-circle{fill:#fff;stroke-width:2px}.c3-bar{stroke-width:0}.c3-bar._expanded_{fill-opacity:.75}.c3-target.c3-focused{opacity:1}.c3-target.c3-focused path.c3-line,.c3-target.c3-focused path.c3-step{stroke-width:2px}.c3-target.c3-defocused{opacity:.3!important}.c3-region{fill:#4682b4;fill-opacity:.1}.c3-brush .extent{fill-opacity:.1}.c3-legend-item{font-size:12px}.c3-legend-item-hidden{opacity:.15}.c3-legend-background{opacity:.75;fill:#fff;stroke:#d3d3d3;stroke-width:1}.c3-title{font:14px sans-serif}.c3-tooltip-container{z-index:10}.c3-tooltip{border-collapse:collapse;border-spacing:0;background-color:#fff;empty-cells:show;-webkit-box-shadow:7px 7px 12px -9px #777;-moz-box-shadow:7px 7px 12px -9px #777;box-shadow:7px 7px 12px -9px #777;opacity:.9}.c3-tooltip tr{border:1px solid #CCC}.c3-tooltip th{background-color:#aaa;font-size:14px;padding:2px 5px;text-align:left;color:#FFF}.c3-tooltip td{font-size:13px;padding:3px 6px;background-color:#fff;border-left:1px dotted #999}.c3-tooltip td>span{display:inline-block;width:10px;height:10px;margin-right:6px}.c3-tooltip td.value{text-align:right}.c3-area{stroke-width:0;opacity:.2}.c3-chart-arcs-title{dominant-baseline:middle;font-size:1.3em}.c3-chart-arcs .c3-chart-arcs-background{fill:#e0e0e0;stroke:none}.c3-chart-arcs .c3-chart-arcs-gauge-unit{fill:#000;font-size:16px}.c3-chart-arcs .c3-chart-arcs-gauge-max,.c3-chart-arcs .c3-chart-arcs-gauge-min{fill:#777}.c3-chart-arc .c3-gauge-value{fill:#000}
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/desk.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/desk.css
  */
 body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
@@ -9676,7 +9676,7 @@ fieldset[disabled] .form-control {
 }
 .modal-header {
   padding: 10px 15px;
-  background: #f0f0f0;
+  background: #e8f5e9;
 }
 .modal-title {
   margin-top: 5px;
@@ -9861,7 +9861,7 @@ fieldset[disabled] .form-control {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/indicator.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/indicator.css
  */
 .indicator,
 .indicator-right {
@@ -9933,7 +9933,7 @@ fieldset[disabled] .form-control {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/avatar.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/avatar.css
  */
 .avatar {
   display: inline-block;
@@ -10013,16 +10013,16 @@ fieldset[disabled] .form-control {
   border-radius: 4px;
   font-size: 14px;
   line-height: 0px;
-  color: #d1d8dd;
-  border: 1px solid #d1d8dd;
   font-weight: normal;
   margin-top: -1px;
   BORDER-RADIUS: 20PX;
+  color: #008975;
+  border: 1px solid #d1d8dd;
 }
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/navbar.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/navbar.css
  */
 .navbar .dropdown-toggle {
   padding-top: 8px;
@@ -10109,7 +10109,7 @@ fieldset[disabled] .form-control {
 }
 .dropdown-help .dropdown-menu .input-group {
   width: 100%;
-  background: #f0f0f0;
+  background: #e8f5e9;
   padding: 8px 12px;
 }
 .dropdown-help .dropdown-menu input {
@@ -10159,7 +10159,7 @@ fieldset[disabled] .form-control {
 }
 #navbar-search {
   width: 300px;
-  background-color: rgb(65, 78, 90);
+  background-color: #00BF9A;
   BORDER-RADIUS: 0PX;
   color: #f9f9f9;
   border: none;
@@ -10239,13 +10239,13 @@ fieldset[disabled] .form-control {
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
-  color: #d1d1d2;
+  color: #ffffff;
   border-bottom: none;
 }
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/sidebar.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/sidebar.css
  */
 html {
   min-height: 100%;
@@ -10564,7 +10564,7 @@ a.close:focus {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/page.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/page.css
  */
 .page-container {
   margin-top: 40px;
@@ -10577,7 +10577,7 @@ a.close:focus {
   right: 0;
   top: 41px;
   margin: auto;
-  background: #f4f4f4;
+  background: #E8F5E9;
   z-index: 101;
   box-shadow: 0px -2px 12px #424242;
 }
@@ -10630,8 +10630,8 @@ a.close:focus {
   cursor: pointer;
 }
 .editable-title .title-text:hover {
-  background-color: #eeeeee;
-  color: #7574ff;
+  background-color: #e8f5e9;
+  color: #008975;
 }
 .page-actions {
   padding-top: 17px;
@@ -10653,7 +10653,7 @@ a.close:focus {
   left: auto;
 }
 .layout-main-section {
-  border: 1px solid #bbbbbb;
+  border: 1px solid #00BF9A;
   border-top: 0px;
   BACKGROUND: WHITE;
   box-shadow: 3px 2px 12px #d0cdcd;
@@ -10664,7 +10664,7 @@ a.close:focus {
   padding-right: 15px;
 }
 .layout-footer {
-  border: 1px solid #d1d8dd;
+  border: 1px solid #00BF9A;
   border-top: 0px;
   padding: 3px 15px;
   font-size: 12px;
@@ -10672,7 +10672,7 @@ a.close:focus {
 .page-form {
   margin: 0px;
   padding-top: 15px;
-  border-bottom: 1px solid #d1d8dd;
+  border-bottom: 1px solid #abeade;
 }
 .page-form .form-group {
   margin-bottom: 15px;
@@ -10723,7 +10723,7 @@ select.input-sm {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/tree.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/tree.css
  */
 .tree {
   padding: 15px;
@@ -10760,11 +10760,11 @@ ul.tree-children {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/desktop.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/desktop.css
  */
 body[data-route=""] .navbar-default,
 body[data-route="desktop"] .navbar-default {
-  background-color: #39444e;
+  background-color: #00AA8D;
 }
 #page-desktop {
   min-width: 100%;
@@ -10948,7 +10948,7 @@ body[data-route="desktop"] .navbar-set-desktop-icons {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/form.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/form.css
  */
 .form-print-wrapper {
   border: 1px solid #d1d8dd;
@@ -10973,7 +10973,7 @@ body[data-route="desktop"] .navbar-set-desktop-icons {
   margin-bottom: 10px;
 }
 .form-clickable-section {
-  border-top: 1px solid #d1d8dd;
+  border-top: 1px solid rgba(0, 191, 154, 0.36);
   padding: 10px 15px;
   background-color: #F7FAFC;
 }
@@ -11109,10 +11109,10 @@ body[data-route="desktop"] .navbar-set-desktop-icons {
 h6.uppercase,
 .h6.uppercase {
   font-size: 11px;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  color: #ffa00a;
+  color: #008975;
 }
 .form-section {
   margin: 1px;
@@ -11139,7 +11139,7 @@ h6.uppercase,
 }
 .form-section:not(:last-child),
 .form-inner-toolbar {
-  border-bottom: 1px solid #bbbbbb;
+  border-bottom: 1px solid rgba(0, 191, 154, 0.36);
   BACKGROUND: #ffffff;
 }
 .empty-section {
@@ -11216,11 +11216,11 @@ h6.uppercase,
   box-shadow: 1px 1px 5px #a2a2a2;
 }
 .timeline-item.user-content .comment-header {
-  background-color: #fafbfc;
+  background-color: #e8f5e9;
   padding: 7px 15px;
   margin: 0px;
   color: #8D99A6;
-  border-bottom: 1px solid #EBEFF2;
+  border-bottom: 1px solid #a3e8da;
 }
 .timeline-item.user-content .comment-header .octicon-heart {
   color: #ff5858;
@@ -11295,14 +11295,14 @@ h6.uppercase,
 }
 .timeline-head {
   background-color: white;
-  border: 1px solid #a6a9ab;
+  border: 1px solid #a3e8da;
   border-radius: 2px;
   box-shadow: 3px 2px 12px #d0cdcd;
 }
 .timeline-head .comment-input-header {
-  background: #f0f0f0;
+  background: #e8f5e9;
   padding: 7px 15px;
-  border-bottom: 1px solid #EBEFF2;
+  border-bottom: 1px solid #a3e8da;
 }
 .timeline-head .comment-input-container {
   padding: 15px;
@@ -11341,7 +11341,6 @@ h6.uppercase,
 }
 .control-label,
 .grid-heading-row {
-  color: #525252;
   font-size: 12px;
 }
 .control-label {
@@ -11353,8 +11352,8 @@ h6.uppercase,
   border-radius: 0px;
   min-height: 30px;
   font-weight: bold;
-  background: #f4f4f4;
-  border: 1px solid #cecece;
+  background: #E8F5E9;
+  border: 1px solid #a3e8db;
   color: gray;
 }
 .like-disabled-input.for-description {
@@ -11503,7 +11502,7 @@ select.form-control {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/mobile.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/mobile.css
  */
 html {
   min-height: 100%;
@@ -11844,7 +11843,7 @@ body {
 }
 
 *
- *	/home/frappe/frappe-bench/apps/erpnext/erpnext/public/css/erpnext.css
+ *  /home/frappe/frappe-bench/apps/erpnext/erpnext/public/css/erpnext.css
  */
 .erpnext-footer {
   margin: 11px auto;
@@ -11916,13 +11915,13 @@ body {
 .pos-bill-toolbar {
   padding: 10px 0px;
   height: 51px;
-  background: white;
+  background: #e8f5e9;
 }
 .pos-item-toolbar .form-group {
   margin-bottom: 0px;
 }
 .pos-bill-wrapper {
-  border: 1px solid #d1d8dd;
+  border: 1px solid #9de3d8;
   border-top: none;
   margin-right: -1px;
   box-shadow: none;
@@ -11938,8 +11937,8 @@ body {
   background: white;
 }
 .pos-bill-header {
-  background: #f6f6f6;
-  border-bottom: 1px solid #ffa00a !important;
+  background: #e8f5e9;
+  border-bottom: 1px solid rgba(0, 191, 154, 0.36) !important;
 }
 .pos-item-qty {
   display: inline-block;
@@ -12064,7 +12063,7 @@ body[data-route="pos"] .modal-dialog {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/report.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/report.css
  */
 .grid-report .plot {
   margin: 15px;
@@ -12117,34 +12116,34 @@ body[data-route="pos"] .modal-dialog {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/tree_grid.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/tree_grid.css
  */
 .cell-title {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .cell-effort-driven {
-	text-align: center;
+  text-align: center;
 }
 
 .toggle {
-	height: 9px;
-	width: 9px;
-	display: inline-block;
-	visibility: visible;
+  height: 9px;
+  width: 9px;
+  display: inline-block;
+  visibility: visible;
 }
 
 .toggle.expand {
-	background: url("/assets/frappe/js/lib/slickgrid/images/expand.gif") no-repeat center center;
+  background: url("/assets/frappe/js/lib/slickgrid/images/expand.gif") no-repeat center center;
 }
 
 .toggle.collapse {
-	background: url("/assets/frappe/js/lib/slickgrid/images/collapse.gif") no-repeat center center;
+  background: url("/assets/frappe/js/lib/slickgrid/images/collapse.gif") no-repeat center center;
 }
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/js/lib/slickgrid/slick.grid.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/js/lib/slickgrid/slick.grid.css
  */
 /*
 IMPORTANT:
@@ -12176,7 +12175,7 @@ classes should alter those!
   line-height: 16px;
   margin: 0;
   padding: 4px;
-  border-right: 0px solid silver;
+  border-right: 0px solid #a3e8db;
   border-left: 0px;
   border-top: 0px;
   border-bottom: 0px;
@@ -12238,7 +12237,7 @@ classes should alter those!
 .slick-cell, .slick-headerrow-column {
   position: absolute;
   border: 1px solid transparent;
-  border-right: 1px dotted silver;
+  border-right: 1px dotted #a3e8db;
   border-bottom-color: silver;
   overflow: hidden;
   -o-text-overflow: ellipsis;
@@ -12307,7 +12306,7 @@ classes should alter those!
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/js/lib/slickgrid/slick-default-theme.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/js/lib/slickgrid/slick-default-theme.css
  */
 /*
 IMPORTANT:
@@ -12318,7 +12317,7 @@ classes should alter those!
 
 .slick-header-columns {
   /*background: url('images/header-columns-bg.gif') repeat-x center bottom;*/
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid #a3e8db;
 }
 
 .slick-header-column {
@@ -12335,7 +12334,7 @@ classes should alter those!
 }
 
 .slick-headerrow-column {
-  background: #fafafa;
+  background: #e8f5e9;
   border-bottom: 0;
   height: 100%;
 }
@@ -12430,7 +12429,7 @@ classes should alter those!
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/slickgrid.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/slickgrid.css
  */
 .slick-header-column,
 .slick-cell {
@@ -12447,7 +12446,7 @@ classes should alter those!
   border-bottom: 1px solid #d1d8dd;
 }
 .slick-headerrow-column {
-  background-color: #f7f7f7 !important;
+  background-color: #e8f5e9 !important;
   text-overflow: clip;
 }
 .slick-headerrow-column input {
@@ -12476,7 +12475,7 @@ classes should alter those!
   font-size: 12px;
   font-weight: bold;
   background-color: #f7fafc;
-  border-color: #d1d8dd !important;
+  border-color: #a3e8db !important;
   color: #8D99A6 !important;
 }
 .slick-header-column:hover,
@@ -12485,27 +12484,25 @@ classes should alter those!
   background-color: rgba(255, 160, 10, 0.35);
 }
 .slick-row.odd .slick-cell {
-  background-color: #fafbfc;
+  background-color: #e8f5e9;
 }
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/form_grid.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/form_grid.css
  */
 .form-grid {
   border: 1px solid #bbbbbb;
   border-radius: 0px;
 }
 .grid-heading-row {
-  border-bottom: 1px solid #ffa00a;
+  border-bottom: 1px solid rgba(0, 191, 154, 0.36);
   font-weight: bold;
-  background: #f0f0f0;
+  background: #e8f5e9;
 }
 .grid-row {
-  padding: 0px 15px;
-  border-bottom: 1px solid #d1d8dd;
-  -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  border-bottom: 1px solid #a3e8da;
 }
 .grid-row:last-child {
   border: none;
@@ -12543,7 +12540,7 @@ classes should alter those!
   height: 39px;
   padding: 10px 15px;
   max-height: 200px;
-  border-right: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 191, 154, 0.36);
 }
 .grid-static-col input[type="checkbox"] {
   margin-left: -16px !important;
@@ -12557,7 +12554,7 @@ classes should alter those!
 .grid-row > .row .col {
   padding-left: 5px;
   padding-right: 5px;
-  border-right: 1px solid #d1d8dd;
+  border-right: 1px solid rgba(0, 191, 154, 0.36);
 }
 .grid-body .btn-open-row {
   padding-top: 5px;
@@ -12676,7 +12673,7 @@ classes should alter those!
   background: #f0f0f0;
 }
 .grid-footer {
-  background: #f0f0f0;
+  background: #E8F5E9;
 }
 .grid-footer-toolbar {
   padding: 10px 15px;
@@ -12700,7 +12697,7 @@ classes should alter those!
 }
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/list.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/list.css
  */
 .no-result {
   padding: 15px;
@@ -12721,7 +12718,7 @@ classes should alter those!
 }
 .show_filters {
   padding: 15px 15px 0px;
-  border-bottom: 1px solid #d1d8dd;
+  border-bottom: 1px solid #00BF9A;
 }
 .set-filters {
   padding-bottom: 4px;
@@ -12740,7 +12737,7 @@ classes should alter those!
 }
 .set-filters .btn-group .btn-default {
   background-color: transparent;
-  border: 1px solid #d1d8dd;
+  border: 1px solid #00BF9A;
   color: #8D99A6;
 }
 .filter-box {
@@ -12812,8 +12809,8 @@ classes should alter those!
 }
 .list-paging-area {
   padding: 10px 15px;
-  border-top: 2px solid #ffa00a;
-  background: #f0f0f0;
+  border-top: 2px solid #00BF9A;
+  background: #E8F5E9;
 }
 .list-value {
   vertical-align: middle;
@@ -12956,17 +12953,17 @@ table.field-info tr td {
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/tag-it.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/tag-it.css
  */
 div.tag-line {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 ul.tagit {
-	margin: 0px;
-	padding: 0px;
-	display: block;
-	border: 0px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  border: 0px;
 }
 
 
@@ -12974,22 +12971,22 @@ ul.tagit li {
     display: block;
     float: left;
     margin: 2px 5px 2px 0;
-	background: none;
-	border: none;
+  background: none;
+  border: none;
 }
 ul.tagit li.tagit-choice {
-	font-size: 11px;
-	padding: .2em;
-	padding-right: 18px;
-	padding-left: 4px;
-	position: relative;
-	background: none;
-	border: none;
-	box-shadow: none;
-	border-radius: 0px;
-	background-color: #5e64ff;
-	cursor: pointer;
-	color: white;
+  font-size: 11px;
+  padding: .2em;
+  padding-right: 18px;
+  padding-left: 4px;
+  position: relative;
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: #5e64ff;
+  cursor: pointer;
+  color: white;
 }
 
 ul.tagit li.tagit-new {
@@ -13039,22 +13036,22 @@ ul.tagit input[type="text"] {
 /* in list */
 
 .list-tag ul.tagit li.tagit-choice .tagit-close {
-	margin-top: -8px;
+  margin-top: -8px;
 }
 
 .list-tag ul.tagit input[type="text"] {
-	font-size: 11px;
-	margin-top: -1px;
+  font-size: 11px;
+  margin-top: -1px;
 }
 
 .tag-row {
-	padding-left: 55px;
-	margin-bottom: -2px;
+  padding-left: 55px;
+  margin-bottom: -2px;
 }
 
 
 /*
- *	/home/frappe/frappe-bench/apps/frappe/frappe/public/css/calendar.css
+ *  /home/frappe/frappe-bench/apps/frappe/frappe/public/css/calendar.css
  */
 .fc-toolbar {
   padding: 15px;
@@ -13163,13 +13160,13 @@ th.fc-widget-header {
 }
 
 .list-item--head {
-    background-color: #f0f0f0;
-    border-bottom: 1px solid #ffa00a;
-    cursor: auto;
+    background-color: #E8F5E9;
+    border-bottom: 1px solid #00BF9A;
+    cursor: auto;;;
 }
 
 .list-item:hover {
-    background-color: rgba(255, 160, 10, 0.14);
+    background-color: rgba(91, 216, 101, 0.18);
 }
 
 .module-section {
@@ -13179,6 +13176,6 @@ th.fc-widget-header {
 .module-body .section-head {
     margin-bottom: 15px;
     margin-top: 0px;
-    color: #ffa00a;
-    border-bottom: 1px solid #cccccc;
+    color: #008975;
+    border-bottom: 1px solid rgba(0, 191, 154, 0.36);
 }
